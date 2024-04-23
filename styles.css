@@ -1,0 +1,162 @@
+/* Общие стили */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Стили для заглавной сцены */
+header {
+    position: relative;
+    text-align: center;
+    background-color: #f8f9fa;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.jumbotron {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.jumbotron h1, .jumbotron p {
+    color: #333;
+}
+
+/* Логотип */
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 1;
+}
+
+.logo img {
+    max-width: 100px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Стили для текстовых блоков */
+.text-blocks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.text-block {
+    width: 70%;
+    padding: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    background-color: #fff;
+}
+
+.text-block:hover {
+    transform: scale(1.05);
+}
+
+.text-block h2 {
+    font-family: 'Arial', sans-serif;
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.text-block p {
+    font-size: 18px;
+    color: #666;
+}
+
+/* Карусель изображений */
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-indicators {
+    bottom: 10px;
+}
+
+.carousel-indicators li {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid #fff;
+    width: 12px;
+    height: 12px;
+    margin: 0 5px;
+}
+
+.carousel-indicators .active {
+    background-color: #fff;
+}
+
+/* Карусель портфолио */
+#portfolioCarousel .carousel-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Дополнительные стили для портфолио */
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.portfolio-item {
+    width: calc(33.33% - 20px);
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.portfolio-item h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.portfolio-item p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.image-gallery, .video-player {
+    margin-bottom: 20px;
+}
+
+.image-gallery img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.video-player video {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+
+
+
+
