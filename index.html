@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мое портфолио</title>
+    <!-- Подключение стилей Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Подключение собственных стилей -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <!-- Ваши элементы заглавной сцены -->
+        <div class="jumbotron">
+            <h1 class="display-4">Добро пожаловать в мое портфолио!</h1>
+            <p class="lead">Здесь вы можете ознакомиться с моими работами.</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="portfolio">
+            <!-- Блоки с вашими работами -->
+            <article class="portfolio-item">
+                <h2>Название работы 1</h2>
+                <p>Описание работы 1</p>
+                <div class="image-gallery">
+                    <img src="images/image1.jpg" alt="Заглушка для изображения">
+                    <!-- Здесь может быть галерея изображений -->
+                </div>
+                <div class="video-player">
+                    <video src="movies/movie1.mp4" muted loop controls poster="images/video-placeholder.jpg"></video>
+                    <!-- Здесь может быть видеоплеер -->
+                </div>
+            </article>
+            
+            <article class="portfolio-item">
+                <h2>Название работы 2</h2>
+                <p>Описание работы 2</p>
+                <div class="image-gallery">
+                    <img src="images/image2.png" alt="Заглушка для изображения">
+                    <!-- Здесь может быть галерея изображений -->
+                </div>
+                <div class="video-player">
+                    <video src="movies/movie2.mp4" muted loop controls poster="images/video-placeholder.jpg"></video>
+                    <!-- Здесь может быть видеоплеер -->
+                </div>
+            </article>
+            
+            <!-- Добавьте столько блоков, сколько вам нужно -->
+        </section>
+    </main>
+
+    <!-- Подключение скрипта для управления анимациями и интерактивностью -->
+    <script src="scripts.js"></script>
+</body>
+</html>
